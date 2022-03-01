@@ -8,6 +8,8 @@ Just your average Joe with a 9-5 job and a passion for learning about Bitcoin. A
 
 This page is a single collection of my contributions that I can point people towards when starting out. If you find it valuable, please share it with your peers.
 
+This is now being edited
+
 <br/>
 
 ### Main Resources
