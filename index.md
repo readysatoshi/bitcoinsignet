@@ -2,105 +2,118 @@
 layout: default
 ---
 
-[![bitcoinerheader](https://raw.githubusercontent.com/BitcoinQnA/bitcoiner.guide/master/assets/images/BDG1.png)](https://bitcoiner.guide/)
+[![bitcoinsignetheader](assets/images/BDG1.png)](https://bitcoinsignet.com/)
 
-Just your average Joe with a 9-5 job and a passion for learning about Bitcoin. As my knowledge improves I try to give back through education. I am not a programmer or developer, nor do I have any prior technical experience. I have been fortunate enough to speak regularly with some smart and generous people who help me understand these complex topics, which I then try to present in an approachable way for others to learn.
-
-This page is a single collection of my contributions that I can point people towards when starting out. If you find it valuable, please share it with your peers.
-
-This is now being edited
+<div style="text-align:center"><span style="color:orange"><strong>Coins from the Bitcoin Signet network are intentionally worthless.</strong></span></div>
 
 <br/>
 
-### Main Resources
+Bitcoin Signet is a test Bitcoin network, used for testing and educational purposes. This is a feature of Bitcoin, not a bug.
 
-| Resource                                                   | Description                                                                        |
-|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| [BitcoinQnA](https://www.bitcoinqna.com/)                  | Simple Q+A to get started with Bitcoin basics                                      |
-| [Bitcoin Privacy Guide](https://bitcoinprivacy.guide/)     | Guide to help Bitcoiners become more privacy focused                               |
-| [Bitcoin Graphics](https://bitcoingraphics.page/)          | Graphical Bitcoin Explainers                                                       |
-| [Bitcoin Monthly](https://bitcoinmonthly.news/)            | An index of the main news and developments from the last month                     |
-| [Bitcoin Node Guide](https://node.guide/)                  | Guide to help Bitcoiners explore the different node options                        |
-| [Bitcoin Wallet Guide](https://bitcoinwallet.guide/)       | Guide to help Bitcoiners explore the different wallet options                      |
-| [Bitcoin Whitepaper](https://btcwhitepaper.com/)           | A copy of the Bitcoin Whitepaper by Satoshi Nakamoto                               |
-| [Bitcoin Backup](http://bitcoinbackup.io)                  | Printable bitcoin seed recovery sheets                                             |
-| [Lightning Network Guide](https://ln.guide/)               | A basic introduction to the Lightning Network                                      |
-| [no-KYC only](https://bitcoinqna.github.io/noKYConly/)     | Explainer on the risks of purchasing bitcoin via KYC routes                        |
-| [Verify.Supply](https://verify.supply/)                    | Simple guide to help Bitcoiners audit the current supply of bitcoin                |
-| [Whirlpool Fee Calculator](https://www.whirlpoolfees.com/) | Tool to help Whirlpool users calculate their fees prior to mixing                  |
-| [Articles](https://www.bitcoinqna.com/articles)            | Collection of articles relating to wallets, nodes and purchasing bitcoin           |
-| [Github](https://github.com/BitcoinQnA)                    | Used for the creation and hosting of this page and most of the sites listed above  |
+If you're being offered "Free" or "Discount" bitcoin and promised they are real bitcoin, they may be worthless Bitcoin Signet coins.
+You may be cheated for your time and/or money. Be wary.
+
+The remainder of this page will provide some basic guidelines and links to more information.
 
 <br/>
+## Basic Guidelines
 
+All of the below numbered steps are necessary, none are optional.
 
-### Other Resources
+```
+Symbol Legend
 
-| Resource                   | Description                                                                |
-|---------------------------|----------------------------------------------------------------------------|
-| [Once BITten](https://anchor.fm/daniel-prince6/episodes/BitcoinQ_A---Beginners-Or-Refreshers-Guide-To-Bitcoin-eguivq)               | Podcast appearance covering the beginners guide to Bitcoin                               |
-| [Bit-Buy-Bit #1](https://www.bit-buy-bit.com/podcast-1/episode/26df4d37/ep35-bitcoin-podcast-with-itcoin-qa)               | Podcast appearance covering the basics of Bitcoin wallets                |
-| [Bit-Buy-Bit #2](https://www.bit-buy-bit.com/podcast-1/episode/1c6e67f7/ep38-bitcoin-podcast-with-bitcoin-qa-nodes)               | Podcast appearance covering the basics of Bitcoin nodes                |
-| [Bit-Buy-Bit #3](https://www.bit-buy-bit.com/podcast-1/episode/1cdf5f46/ep41-bitcoin-podcast-with-bitcoin-qa-lightning)               | Podcast appearance covering the basics of the Lightning Network                |
-| [Bit-Buy-Bit #4](https://www.bit-buy-bit.com/podcast-1/episode/2a64f9e1/ep43-bitcoin-podcast-with-bitcoin-qa-coinjoin)               | Podcast appearance covering the basics of Coinjoin + Samourai Wallet                |
-| [Satoshi en Venezuela](https://www.youtube.com/watch?v=QkNxSmdtNNs&feature=youtu.be)               | Podcast appearance covering privacy, Bitcoin myths and common mistakes         |
-| [Citadel Dispatch](https://youtu.be/9t8WsT9NpUU) | Podcast appearance covering privacy, noKYC and nodes  |
+✅  This is a necessary check for your safety.
+🚩  This is a red flag. It should not occur.
+⚠️  This is a caveat or precautionary statement.
+```
+<br/>
+### 1. Always decide and download your Bitcoin Wallet for yourself
 
+Bitcoin wallets can be repackaged to work with Bitcoin Signet. This is a feature not a bug.
+
+Such wallets may behave similar to wallets with real bitcoin.
+
+Always know which wallet you are using and why.
+
+✅ Determined the wallet's official URL using a search engine like Google, Bing, DuckDuckGo.
+
+✅ Downloaded the wallet from its official URL or App stores like the Android and IOS App store.
+
+✅ The wallet is open source and a publicly visible project with activity on [Github](https://github.com) or [Gitlab](https://gitlab.com).
+
+✅ Confirmed that the Website or App is published and owned by the original authors and developers.
+
+✅ Confirmed that the software version matches that of a recent stable release, and signed by the authors and developers.
+
+🚩 Never obtain a URL or app to a wallet software from someone else.
+
+🚩 Never download or use a wallet that someone else provides to you.
+
+⚠️ This is not sufficient since your network can be compromised and the above checks can be faked. Follow up with step 2 and step 3 described below.
+
+<br/>
+### 2. Check the address format
+
+Learn what real bitcoin addresses look like.
+
+When sending bitcoin or receiving them yourself, the bitcoin address will begin with a valid prefix. If you are sending or receiving to an address without this prefix, then 
+you are not dealing with actual bitcoin.
+
+✅ The bitcoin address can be viewed.
+
+✅ The wallet lets you generate many different addresses that look different.
+
+✅ All addresses start with ```1``` or ```2``` or ```bc1```.
+
+🚩 You cannot see the bitcoin address on your wallet.
+
+⚠️ This is not sufficient since a compromised wallet can show you legit addresses but do something else in the background. Proceed to step 3 described below.
+
+<br/>
+### 3. Test a small transaction and verify it on a well known Explorer
+
+Always run a test transaction with an insignificant amount. Wait for a minimum of 2 confirmations before proceeding to the intended & final transaction.
+
+✅ A small insignificant transaction was successfully confirmed on the Mainnet on more than 1 block explorer. Here's a few you can use: 
+[Mempool](https://mempool.space/), [Blockstream](https://blockstream.info/), [Bitcoin Explorer](https://blockstream.info/)
+
+✅ The next transaction with the intended amount has the exact same workflow as the test transaction and there are no changes needed.
+
+🚩 You are asked to confirm the transaction on an unknown/lesser-known block explorer.
+
+🚩 You are asked to confirm the transaction by selecting the Signet or Testnet network.
+
+🚩 You are asked to restart the wallet software or regenerate a new wallet or create a new address to perform the intended & final transaction.
+
+⚠️ If any of the above red flags occur, stop and do not perform the intended & final transaction
 
 
 <br/>
+## Links to Bitcoin Signet on the web
 
-
-### Article List
-
-| Name        | Category | Description                        |
-|---------------------|----------|------------------------------------|
-| [Samourai Wallet 101](https://www.bitcoinqna.com/post/samourai-101) | Wallets  | Basic explainer of Samourai Wallet |
-| [OpenDime 101](https://www.bitcoinqna.com/post/opendime-101)                  | Wallets          | Basic explainer on setting up and using an Open Dime                                   
-| [Zeus 101](https://www.bitcoinqna.com/post/zeus-101)                  | Wallets          | Basic explainer on setting up and using Zeus                  |          
-| [Coldcard 101](https://www.bitcoinqna.com/post/coldcard-101)                    | Wallets         | Basic explainer on setting up and using a Coldcard Hardware Wallet                                   |
-| [Zap 101](https://www.bitcoinqna.com/post/zap-101)                    | Wallets         | Basic explainer on setting up and using Zap              |
-| [Blue Wallet 101](https://www.bitcoinqna.com/post/bluewallet-101)                    | Wallets          | Basic explainer on setting up and using Blue Wallet |
-| [Sentinel 101](https://www.bitcoinqna.com/post/sentinel-101)                    | Wallets         | Basic explainer on setting up and using Sentinel 'watch only' wallet      |
-|  [Sparrow Wallet 101](https://www.bitcoinqna.com/post/sparrow-wallet-101)                   | Wallets          | Basic explainer on setting up and using Sparrow desktop wallet           |
-|  [Specter Desktop 101](https://www.bitcoinqna.com/post/specter-desktop-101)                   | Wallets          | Basic explainer on setting up and using Specter desktop wallet           |
-|  [myNode 101](https://www.bitcoinqna.com/post/mynode-features-101)                   | Nodes          | Feature breakdown of myNode                          |
-|  [RoninDojo 101](https://www.bitcoinqna.com/post/ronindojo-101)                   | Nodes          | Feature breakdown of RoninDojo                          |
-|  [Migrating your Samourai Wallet to RoninDojo](https://www.bitcoinqna.com/post/connecting-or-migrating-your-samourai-wallet-to-ronindojo)                   | Nodes         | Connect or migrating Samourai Wallet to RoninDojo guide                                  |
-|  [Rescanning XPUBs using Dojo Maintenance Tool](https://www.bitcoinqna.com/post/rescanning-xpubs-using-dojo-maintenance-tool)   | Nodes         |  Guide to restore balances using Dojo Maintenance Tool                                  |
-|  [Samourai Wallet Cold Storage Implications](https://www.bitcoinqna.com/post/samourai-wallet-cold-storage-implications)                   | Privacy         |  Explainer on the considerations required when spending to cold storage                                   |
-|  [Dealing With Coinjoin Change Outputs](https://www.bitcoinqna.com/post/dealing-with-coinjoin-change-outputs)                   | Privacy         | Tips on ways to deal with change outputs from Coinjoins                                   |
-|  [10 Tips For Interacting With Bitcoin More Privately](https://www.bitcoinqna.com/post/10-tips-for-interacting-with-bitcoin-more-privately)        | Privacy         |  Simple privacy tips for interacting with Bitcoin                                  |
-|  [Your First Mobile Coinjoin](https://www.bitcoinqna.com/post/your-first-mobile-coinjoin)                   | Privacy          | Guide for using Whirlpool on mobile                                   |
-|  [Whirlpool + Postmix spending FAQ](https://www.bitcoinqna.com/post/whirlpool-faq) | Privacy   | Whirlpool explainer and answers to FAQ                 |
-|  [10 Steps To Your First no-KYC Bitcoin](https://www.bitcoinqna.com/post/10-steps-to-your-first-non-kyc-bitcoin)  | Getting Bitcoin         | Guide for purchasing bitcoin on Bisq                                   |
-|  [10 Steps To Your First no-KYC Bitcoin (Hodl Hodl)](https://www.bitcoinqna.com/post/10-steps-to-your-first-non-kyc-bitcoin-hodlhodl-edition)                   | Getting Bitcoin         | Guide for purchasing bitcoin on Hodl Hodl                                   |
-|  [Creating A Buy Offer On  Hodl Hodl](https://www.bitcoinqna.com/post/creating-a-buy-offer-on-hodl-hodl)  | Getting Bitcoin         |  Guide for creating a buy offer using Hodl Hodl                                  |
-|  [10 ways to lose your bitcoin](https://www.bitcoinqna.com/post/10-ways-to-lose-your-bitcoin) | Security | Tips for newcomers to avoid losing their bitcoin | 
-|  [Verifying Software 101](https://www.bitcoinqna.com/post/verifying-software-101) | Security |  Guide to help users verify the software they download |
+| Resource                                                   | Description                                                                                                                                                          | 
+|------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Bitcoin Signet](https://en.bitcoin.it/wiki/Signet)        | Bitcoin Signet wiki entry                                                                                                                                            |
+| [BIP 0325](https://en.bitcoin.it/wiki/BIP_0325)            | The BIP entry describing Bitcoin Signet                                                                                                                              |
+| [Signet Faucet](https://signetfaucet.com/)                 | Grab some free signet bitcoin here. Remember: They are worthless                                                                                                     |
+| [Signet is Worthless](https://signetfaucet.com/worthless)  | Similar to this page, maintained by [Kalle Alm](https://twitter.com/kallewoof), Bitcoin Core contributor and Author of Signet                                        |
+| [Signet Explorer](https://mempool.space/signet)            | Signet explorer                                                                                                                                                      |
+| [Explaining Signet](https://youtu.be/lGJaIbpf6bk)          | A helpful discussion on Youtube that dives into Bitcoin Signet                                                                                                       |
 
 <br/>
+## Help Needed
 
-### Support
+If you would like to help keep this page updated, please contact me.
 
-If you have found my contributions valuable, sats are gratefully received.
+🏗️ Found something that needs correction or editing?
 
-*  [BTCPay](https://bqa.duckdns.org:20486/apps/96ZvtoJQr9bz5QyeDoUfhkmNTLZ/pos)
-*  [Tippin.Me](https://tippin.me/@BitcoinQ_A)
-*  [PayNym](https://paynym.is/+BQA)
+⚡ Update this page with instructions of how to be safe on Lightning Network.
 
-### Contact
+<br/>
+## Contact & Acknowledgements
 
-Feel free to reach out about anything, I am by no means an expert but I will always support those who are keen to learn.
-
-*   [Twitter](https://twitter.com/BitcoinQ_A)
-*   [Telegram](https://t.me/BitcoinQnA)
-*   [Keybase](https://keybase.io/bitcoinqna)
-*   [Matrix](https://matrix.to/#/@qna:bitcoiner.chat)
-*   [Mastodon](https://social.bitcoiner.guide/web/accounts/1#)
-*   [Email](mailto:bitcoinqna@tutanota.com)
-*   [PGP](https://bitcoiner.guide/pgp)
-
-
-
-
+*   [Twitter](https://twitter.com/readysatoshi)
+*   [Email](mailto:admin@bitcoinsignet.com)
+*   [Github](https://github.com/readysatoshi/bitcoinsignet)  
+*   [Theme Credit](https://bitcoiner.guide/)
