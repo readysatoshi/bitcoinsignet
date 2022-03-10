@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[![bitcoinsignetheader](assets/images/BDG1.png)](https://bitcoinsignet.com/)
+[![bitcoinsignetheader](assets/images/header.png)](https://bitcoinsignet.com/)
 
 <div style="text-align:center"><span style="color:orange"><strong>Coins from the Bitcoin Signet network are intentionally worthless.</strong></span></div>
 
@@ -76,7 +76,7 @@ you are not dealing with actual bitcoin.
 Always run a test transaction with an insignificant amount. Wait for a minimum of 2 confirmations before proceeding to the intended & final transaction.
 
 ✅ A small insignificant transaction was successfully confirmed on the Mainnet on more than 1 block explorer. Here's a few you can use: 
-[Mempool](https://mempool.space/), [Blockstream](https://blockstream.info/), [Bitcoin Explorer](https://blockstream.info/)
+[Mempool](https://mempool.space/), [Blockstream](https://blockstream.info/), [Bitcoin Explorer](https://blockstream.info/), [BlockCypher](https://live.blockcypher.com/btc/)
 
 ✅ The next transaction with the intended amount has the exact same workflow as the test transaction and there are no changes needed.
 
@@ -102,7 +102,7 @@ Always run a test transaction with an insignificant amount. Wait for a minimum o
 | [Explaining Signet](https://youtu.be/lGJaIbpf6bk)          | A helpful discussion on Youtube that dives into Bitcoin Signet                                                                                                       |
 
 <br/>
-## Help Needed
+## Contributions
 
 If you would like to help keep this page updated, please contact me.
 
