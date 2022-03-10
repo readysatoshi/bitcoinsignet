@@ -76,7 +76,7 @@ you are not dealing with actual bitcoin.
 Always run a test transaction with an insignificant amount. Wait for a minimum of 2 confirmations before proceeding to the intended & final transaction.
 
 ✅ A small insignificant transaction was successfully confirmed on the Mainnet on more than 1 block explorer. Here's a few you can use: 
-[Mempool](https://mempool.space/), [Blockstream](https://blockstream.info/), [Bitcoin Explorer](https://blockstream.info/), [BlockCypher](https://live.blockcypher.com/btc/)
+[Mempool](https://mempool.space/), [Blockstream](https://blockstream.info/), [Bitcoin Explorer](https://bitcoinexplorer.org/), [BlockCypher](https://live.blockcypher.com/btc/)
 
 ✅ The next transaction with the intended amount has the exact same workflow as the test transaction and there are no changes needed.
 
