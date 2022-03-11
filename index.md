@@ -46,9 +46,13 @@ Always know which wallet you are using and why.
 
 ✅ Confirmed that the software version matches that of a recent stable release, and signed by the authors and developers.
 
-🚩 Never obtain a URL or app to a wallet software from someone else.
+🚩 Obtained a URL or app to a wallet software from someone else.
 
-🚩 Never download or use a wallet that someone else provides to you.
+🚩 Downloaded or using a wallet that someone else provides to you.
+
+🚩 The wallet is not an open source project.
+
+🚩 The open source project is recent with little or no activity
 
 ⚠️ This is not sufficient since your network can be compromised and the above checks can be faked. Follow up with step 2 and step 3 described below.
 
